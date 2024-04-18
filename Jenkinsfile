@@ -10,13 +10,13 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                echo 'Poll request should be initiated after every 1 min from Jenkins.
+                echo 'Poll request should be initiated after every 1 min from Jenkins.'
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                echo 'Being deployed after every 1 min.
+                echo 'Being deployed after every 1 min.'
             }
         }
     }
